@@ -31,7 +31,7 @@ def MkdataDaily(symbol,date, outfile):
 
 def WriteToLog(text):
     time = datetime.datetime.now().strftime("%A, %d. %B %Y %I:%M%p")
-    logdir = "/Users/srinivas/Documents/workspace/MarketDataTicker"
+    logdir = "logs/"
     logfile = "mkdata_collector.out"
     try:
         log = open (os.path.join(logdir,logfile) , "a")
@@ -72,7 +72,7 @@ if __name__ == "__main__":
     for exchangename in exchangedict:
         mksymbol = exchangedict[exchangename]
         today = time.strftime("%Y%m%d")
-        mkoutfile = mksymbol + today + ".out"
+        mkoutfile = "outfiles/%s%s.out"% (mksymbol, today)
         WriteToLog("Downloading the MarketData feed for %s symbol on %s run date " %(mksymbol, today))
         WriteToLog("Writing the feed to %s file" % mkoutfile)
         MkdataDaily(mksymbol,today,mkoutfile)    
