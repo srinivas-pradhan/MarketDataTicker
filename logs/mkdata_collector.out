@@ -6,3 +6,11 @@
  Tuesday, 12. August 2014 10:20PM | Downloading the MarketData feed for AAPL symbol on 20140812 run date  
  Tuesday, 12. August 2014 10:20PM | Writing the feed to outfiles/AAPL20140812.out file 
  Tuesday, 12. August 2014 10:20PM | Market Data for AAPL to file outfiles/AAPL20140812.out is written 
+ Wednesday, 13. August 2014 08:43PM | Options {'inputfile': 'input.json'} 
+ Wednesday, 13. August 2014 08:43PM | Args ['input.json'] 
+ Wednesday, 13. August 2014 08:43PM | Downloading the MarketData feed for GOOG symbol on 20140813 run date  
+ Wednesday, 13. August 2014 08:43PM | Writing the feed to outfiles/GOOG20140813.out file 
+ Wednesday, 13. August 2014 08:44PM | Market Data for GOOG to file outfiles/GOOG20140813.out is written 
+ Wednesday, 13. August 2014 08:44PM | Downloading the MarketData feed for AAPL symbol on 20140813 run date  
+ Wednesday, 13. August 2014 08:44PM | Writing the feed to outfiles/AAPL20140813.out file 
+ Wednesday, 13. August 2014 08:44PM | Market Data for AAPL to file outfiles/AAPL20140813.out is written 
